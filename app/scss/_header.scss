@@ -1,0 +1,33 @@
+.header {
+    nav {
+        padding: 24px;
+    }
+    &__logo {
+        img {
+            width: 100%;
+        }
+    }
+    &__menu {
+        //Mobile-Menu
+        >span {
+            display: block;
+            width: 26px;
+            height: 2px;
+            color: blue;
+            background-color: $darkBlue;
+            &:not(:last-child) {
+                margin-bottom: 3px;
+            }
+        }
+    }
+    &__links {
+        a {
+            font-size: $font-sm;
+            color: red;
+        }
+    }
+    &__cta {
+        font-size: $font-sm;
+        font-weight: 400;
+    }
+}
