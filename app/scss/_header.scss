@@ -51,11 +51,10 @@
     &__menu {
         position: absolute;
         width: calc(100% - 3rem);
-        // left: 50%;
-        // transform: translateX(-50%);
+        left: 50%;
+        transform: translateX(-50%);
         background: $white;
-        border: 1px solid green;
-        margin: 1.5rem;
+        margin-top: 1.5rem;
         padding: 1.625rem;
         border-radius: 5px;
         * {
@@ -94,14 +93,6 @@
                     opacity: 0.75;
                 }
             }
-        }
-    }
-    &__cta {
-        font-size: $font-sm;
-        font-weight: 400;
-        transition: opacity 300ms ease-in-out;
-        &:hover {
-            opacity: 0.75;
         }
     }
 }

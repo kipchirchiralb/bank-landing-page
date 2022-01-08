@@ -4,8 +4,9 @@ const header = document.querySelector(".header")
 const overlay = document.querySelector(".overlay")
 const fadeElements = document.querySelectorAll(".has-fade")
 
-btnHumburger.addEventListener("click", () => { //close humburger manu
+btnHumburger.addEventListener("click", () => {
     if (header.classList.contains("open")) {
+        //close humburger manu
         header.classList.remove("open")
         body.classList.remove("noscroll")
 
@@ -13,7 +14,8 @@ btnHumburger.addEventListener("click", () => { //close humburger manu
             element.classList.remove("fade-in")
             element.classList.add("fade-out")
         })
-    } else { //open humberger menu
+    } else {
+        //open humberger menu
         header.classList.add("open")
         body.classList.add("noscroll")
         fadeElements.forEach(function(element) {
