@@ -8,6 +8,7 @@
     }
     &__image {
         position: relative;
+        z-index: 1;
         background-image: url(/images/bg-intro-mobile.svg);
         background-size: cover;
         background-repeat: no-repeat;

@@ -49,6 +49,7 @@
         }
     }
     &__menu {
+        z-index: 19;
         position: absolute;
         width: calc(100% - 3rem);
         left: 50%;
