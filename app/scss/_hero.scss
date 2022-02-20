@@ -9,7 +9,7 @@
     &__image {
         position: relative;
         z-index: 1;
-        background-image: url(/images/bg-intro-mobile.svg);
+        background-image: url(./images/bg-intro-mobile.svg);
         background-size: cover;
         background-repeat: no-repeat;
         background-position: center center;
@@ -18,7 +18,7 @@
             flex: 3;
             order: 2;
             min-height: 41rem;
-            background-image: url(/images/bg-intro-desktop.svg);
+            background-image: url(./images/bg-intro-desktop.svg);
             width: 150%;
             background-size: 122%;
             background-position: 0% 83%;
@@ -28,7 +28,7 @@
             position: absolute;
             height: 100%;
             width: 100%;
-            background-image: url(/images/image-mockups.png);
+            background-image: url(./images/image-mockups.png);
             background-size: 93%;
             background-repeat: no-repeat;
             background-position: center bottom;
